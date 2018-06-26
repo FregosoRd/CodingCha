@@ -10,7 +10,8 @@ Project description:
 ---By movie rating
 ---By movie release date
   **************
-->I decided to start the project by focusing in back-end. I created a module that would deal with the JSON file first.
+My approach:
+->I decided to start the project by focusing on back-end first and after that proceed with front-end. I created a module that would deal with the JSON file first.
   once I was able to read the file into memory, the next step was to create a data structure that could hold all the JSON objects (an array of Movie objects)
   After having all movies in a list, I decided to create a new moduie (ListProcessor) that could be able to do all sorting and filtering necessary (please notice that I did not have time to finish all filtering).
   Lastly, the final step would be to create the User Interface (which I definetely did not have time to perform) by using a RecyclerView as a way to show the objects on screen.
