@@ -1,0 +1,28 @@
+The following project was compiled with IDE Android Studio.
+In order to run the project, please first do a pull request from this repository
+->Next if it gives you any libraries missing (specifically from org.json) please add the .jar lib module to your libraries. You will find the .jar lib module inside of the lib folder in the project
+->You should be able to run the project after that. Please contact me if there is any problems fregosor@uci.edu
+
+Project description:
+->It takes a JSON file with information regarding some movie titles and the developing app is to show the list of those movies in the following fashion:
+--The user can select to sort the titles as follows:
+---Incrementing and decrementing alpabetically
+---By movie rating
+---By movie release date
+  **************
+->I decided to start the project by focusing in back-end. I created a module that would deal with the JSON file first.
+  once I was able to read the file into memory, the next step was to create a data structure that could hold all the JSON objects (an array of Movie objects)
+  After having all movies in a list, I decided to create a new moduie (ListProcessor) that could be able to do all sorting and filtering necessary (please notice that I did not have time to finish all filtering).
+  Lastly, the final step would be to create the User Interface (which I definetely did not have time to perform) by using a RecyclerView as a way to show the objects on screen.
+  
+What Works:
+->Successful JSON file parsing and processing
+->There is a list with the sorted movies
+->Sorting ascending and descending alphabetically works
+What I did not have enough time to finish:
+->Not enough time to develop the UI
+->Sorting by date and rating is not finished
+If I had more time...
+->In the way that I have developed the moduling it would be pretty easy to finish all the filtering methods
+->I would be able to display the movies on screen (Since right now I could only show them by printing out to console)
+-> In general it would've been probably better if I had started with the UI first in order to have something to show on the screen.
